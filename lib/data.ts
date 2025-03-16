@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "I worked as a Full-stack freelancer. Helped client to switch from monolithic application to Micro-architecture and deployed it on AWS using Lamda. Tech stack used was Java, SpringBoot, Hibernate and MySQL.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    date: "2023-2024",
   },
    {
     title: "Full-Stack Developer",
