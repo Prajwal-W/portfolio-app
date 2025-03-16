@@ -34,13 +34,29 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Graduated PG-Diploma",
+   {
+    title: "Consultant",
     location: "Pune, MH",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a Back-end developer.",
+      "I'm now Consultant. My stack includes React, Express.JS, TypeScript, Material-UI, MySQL and MSSQL. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
+  {
+    title: "Freelancer",
+    location: "Pune, MH",
+    description:
+      "I worked as a Full-stack freelancer. Helped client to switch from monolithic application to Micro-architecture and deployed it on AWS using Lamda. Tech stack used was Java, SpringBoot, Hibernate and MySQL.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
+  },
+   {
+    title: "Full-Stack Developer",
+    location: "Pune, MH",
+    description:
+      "I worked as a full-stack developer. My stack includes React, Nest.js, TypeScript, Material-UI, ContentStack and MongoDB.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
   },
   {
     title: "Back-End Developer",
@@ -51,12 +67,12 @@ export const experiencesData = [
     date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Graduated PG-Diploma",
     location: "Pune, MH",
     description:
-      "I'm now a full-stack developer. My stack includes React, Nest.js, TypeScript, Material-UI, ContentStack and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2022 - present",
+      "I graduated after 6 months of studying. I immediately found a job as a Back-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
   },
 ] as const;
 
